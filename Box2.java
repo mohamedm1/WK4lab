@@ -11,10 +11,10 @@ public int size = 0;
 			System.out.println();
 	}
 }
-		public void printbox(String string) {
+		public void printbox(char c) {
 			  for (int i = 0; i < size; ++i) {
 		           for (int j = 0; j < size; ++j) {
-		               System.out.print(string);
+		               System.out.print(c);
 		}
 
 			  }
@@ -28,5 +28,7 @@ public int size = 0;
 
 	
 	System.out.println("output overloaded method, char as a\n");
-	box.printbox("a");
+	box.printbox('a');
+}
+
 }

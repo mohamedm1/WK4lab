@@ -15,19 +15,16 @@ public class Account {
 	
 	public static void main(String[] args) {
 		
-		Account num1 = new Account();
+		Account Account1 = new Account();
 		
 		System.out.println(getNumAccounts());
 		
-		Account num2 = new Account();
+		Account Account2 = new Account();
 		
-		Account num3 = new Account();
-		
-		
-
+		Account Account3 = new Account();
 		
 		
-		System.out.println("Number of accounts: " + getNumAccounts());
+System.out.println("Number of accounts: " + getNumAccounts());
 	}
 
 	
